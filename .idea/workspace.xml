@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fd3fa42-f10e-457d-a937-f87f38160053" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="8fd3fa42-f10e-457d-a937-f87f38160053" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/java/MySecondProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/src/main/java/stqa/ant/projects/sandbox/MySecondProgram.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,27 +59,26 @@
     <option name="defaultAccountId" value="89a6f7af-d9ac-4c67-8a5e-1fc946978cb0" />
   </component>
   <component name="ProjectId" id="1ZhJ14E3tG1ytcQpXbfFaXzzL9V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="last_directory_selection" value="$PROJECT_DIR$/Sandbox/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="stqa.ant.projects.sandbox" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="MySecondProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MySecondProgram" />
+      <option name="MAIN_CLASS_NAME" value="stqa.ant.projects.sandbox.MySecondProgram" />
       <module name="Sandbox.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,5 +115,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="486" y="328" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585803324433">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="486" y="328" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.877@0.23.1440.877" timestamp="1585803324433" />
+    <state x="503" y="251" key="chooseDestDirectoryDialog" timestamp="1585803324287">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="503" y="251" key="chooseDestDirectoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1585803324287" />
   </component>
 </project>
