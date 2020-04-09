@@ -3,28 +3,26 @@ package stqa.ant.projects.sandbox;
 public class MySecondProgram {
 
   public static void main(String[] args) {
-    System.out.println("Hello, world!");
+    zdra("World");
+    zdra("Antoshka");
 
-      System.out.println(2 + 2);
-      System.out.println(2 * 2);
-      System.out.println(2 / 2);
-      System.out.println(2 - 2);
-      System.out.println(1 / 2);
-      System.out.println(1.0 / 2);
-      System.out.println(1 / 2.0);
-      System.out.println(2.0 / 2);
+    double l = 5;
+    System.out.println ("S of the square with a side" + l + " = " + area (l));
 
-      System.out.println("2" + "2");
-      System.out.println("2" + 2);
-      System.out.println(2 + "2");
+    double a = 4;
+    double b = 6;
+    System.out.println("S of the rectangle with sides" + a + "and" + b + " = " + area (a,b));
 
-      System.out.println(2 + 2 * 2);
+  }
+  public static void zdra (String somebody) {
+    System.out.println("Hello," + somebody + "!");
+  }
 
-      System.out.println( (2 + 2) *2);
+  public static double area (double len) {
+    return len * len;
+  }
 
-      System.out.println("2 + 2 =" + 2 + 2);
-
-      System.out.println("2 + 2 =" + (2 + 2));
-
+  public static double area(double a, double b) {
+  return a * b;
   }
 }
