@@ -9,14 +9,23 @@ public class MySecondProgram {
     hello("user");
     hello ("Anton");
 
-    Square s = new Square(5);
-    System.out.println ("S of square with side" + s.l + " = " + s.area());
 
-    Rectangle r = new Rectangle (4, 6);
-    System.out.println("S of rectangle with sides" + r.a + " & " + r.b + " = " + r.area() );
+    double l = 5;
+    System.out.println ("S of square with side" + l + " = " + area(l));
+
+    double a = 4;
+    double b = 6;
+    System.out.println("S of rectangle with sides" + a + " & " + b + " = " + area(a,b) );
   }
   public static void hello(String somebody) {
     System.out.println("Hello," + somebody + "!");
+  }
+  public static double area(double len) {
+    return len * len;
+  }
+
+  public static double area (double a, double b) {
+    return a * b;
   }
 
 }
