@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fd3fa42-f10e-457d-a937-f87f38160053" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_beust_jcommander_1_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_inject_guice_no_aop_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_testng_testng_7_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sandbox/src/main/java/stqa/ant/projects/sandbox/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sandbox/src/main/java/stqa/ant/projects/sandbox/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Sandbox.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Sandbox.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Sandbox.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Sandbox.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build/classes/java/main/MySecondProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build/distributions/Sandbox.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build/distributions/Sandbox.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build/libs/Sandbox.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build/scripts/Sandbox" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build/scripts/Sandbox.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sandbox/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Sandbox/out/production/classes/stqa/ant/projects/sandbox/MySecondProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/out/production/classes/stqa/ant/projects/sandbox/MySecondProgram.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sandbox/src/main/java/stqa/ant/projects/sandbox/MySecondProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/src/main/java/stqa/ant/projects/sandbox/MySecondProgram.java" afterDir="false" />
     </list>
@@ -53,6 +72,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -68,17 +94,17 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Sandbox/src/main/java" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="stqa.ant.projects.sandbox" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.SquareTests">
     <configuration name="MySecondProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stqa.ant.projects.sandbox.MySecondProgram" />
       <module name="Sandbox.main" />
@@ -86,8 +112,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sandbox [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Sandbox" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SquareTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Sandbox.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stqa.ant.projects.sandbox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stqa.ant.projects.sandbox" />
+      <option name="MAIN_CLASS_NAME" value="stqa.ant.projects.sandbox.SquareTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SquareTests.testArea" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Sandbox.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stqa.ant.projects.sandbox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stqa.ant.projects.sandbox" />
+      <option name="MAIN_CLASS_NAME" value="stqa.ant.projects.sandbox.SquareTests" />
+      <option name="METHOD_NAME" value="testArea" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SquareTests" />
+        <item itemvalue="TestNG.SquareTests.testArea" />
+        <item itemvalue="Gradle.Sandbox [dependencies]" />
         <item itemvalue="Application.MySecondProgram" />
       </list>
     </recent_temporary>
@@ -123,25 +206,41 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="486" y="328" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.877@0.23.1440.877" timestamp="1585803324433" />
-    <state width="677" height="210" key="GridCell.Tab.0.bottom" timestamp="1588138332036">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state width="1398" height="183" key="GridCell.Tab.0.bottom" timestamp="1592710409711">
+      <screen x="0" y="23" width="1440" height="834" />
     </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590126122971" />
     <state width="677" height="210" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1588138332036" />
+    <state width="677" height="210" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1588394509217" />
+    <state width="1398" height="183" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1592710409711" />
+    <state width="677" height="210" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1589862408742" />
     <state width="679" height="269" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587355733749" />
-    <state width="677" height="210" key="GridCell.Tab.0.center" timestamp="1588138332035">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state width="1398" height="183" key="GridCell.Tab.0.center" timestamp="1592710409710">
+      <screen x="0" y="23" width="1440" height="834" />
     </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590126122969" />
     <state width="677" height="210" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1588138332035" />
+    <state width="677" height="210" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1588394509217" />
+    <state width="1398" height="183" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1592710409710" />
+    <state width="677" height="210" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1589862408742" />
     <state width="679" height="269" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587355733748" />
-    <state width="677" height="210" key="GridCell.Tab.0.left" timestamp="1588138332035">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state width="1398" height="183" key="GridCell.Tab.0.left" timestamp="1592710409710">
+      <screen x="0" y="23" width="1440" height="834" />
     </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590126122969" />
     <state width="677" height="210" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1588138332035" />
+    <state width="677" height="210" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1588394509216" />
+    <state width="1398" height="183" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1592710409710" />
+    <state width="677" height="210" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1589862408741" />
     <state width="679" height="269" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587355733747" />
-    <state width="677" height="210" key="GridCell.Tab.0.right" timestamp="1588138332036">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state width="1398" height="183" key="GridCell.Tab.0.right" timestamp="1592710409710">
+      <screen x="0" y="23" width="1440" height="834" />
     </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590126122970" />
     <state width="677" height="210" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1588138332036" />
+    <state width="677" height="210" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1588394509217" />
+    <state width="1398" height="183" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1592710409710" />
+    <state width="677" height="210" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1589862408742" />
     <state width="679" height="269" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587355733748" />
     <state width="679" height="269" key="GridCell.Tab.1.bottom" timestamp="1587355733752">
       <screen x="0" y="23" width="1440" height="877" />
@@ -159,9 +258,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="679" height="269" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1587355733752" />
-    <state x="208" y="43" key="SettingsEditor" timestamp="1585891431883">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="208" y="21" key="SettingsEditor" timestamp="1590125391176">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="208" y="21" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1590125391176" />
     <state x="208" y="43" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1585891431883" />
     <state x="503" y="251" key="chooseDestDirectoryDialog" timestamp="1585803324287">
       <screen x="0" y="23" width="1440" height="877" />
@@ -171,9 +271,10 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="397" y="263" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1587428392398" />
-    <state x="385" y="176" key="search.everywhere.popup" timestamp="1588136033828">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state x="385" y="166" width="670" height="676" key="search.everywhere.popup" timestamp="1590125031591">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="385" y="166" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1590125031591" />
     <state x="385" y="176" key="search.everywhere.popup/0.23.1440.829@0.23.1440.829" timestamp="1588136033828" />
   </component>
 </project>
