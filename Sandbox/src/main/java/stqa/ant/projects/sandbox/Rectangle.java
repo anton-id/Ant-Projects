@@ -1,4 +1,3 @@
-
 package stqa.ant.projects.sandbox;
 
 public class Rectangle {

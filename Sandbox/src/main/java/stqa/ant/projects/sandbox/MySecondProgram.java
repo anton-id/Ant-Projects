@@ -1,7 +1,5 @@
 package stqa.ant.projects.sandbox;
 
-import java.sql.SQLOutput;
-
 public class MySecondProgram {
 
   public static void main(String[] args) {
@@ -15,6 +13,7 @@ public class MySecondProgram {
     Rectangle r = new Rectangle (4, 6);
     System.out.println("S of rectangle with sides" + r.a + " & " + r.b + " = " + r.area() );
   }
+
   public static void hello(String somebody) {
     System.out.println("Hello," + somebody + "!");
   }
