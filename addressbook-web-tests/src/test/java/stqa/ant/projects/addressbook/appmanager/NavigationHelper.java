@@ -15,4 +15,9 @@ public class NavigationHelper extends HelperBase {
 
     click(By.linkText("groups"));
   }
+  public void gotoAddNewTab() {
+    click(By.cssSelector("li:nth-of-type(2) > a"));
+  }
+
+
 }
